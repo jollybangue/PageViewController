@@ -19,7 +19,7 @@ class PageViewController: UIPageViewController {
     }()
     
     required init?(coder: NSCoder) { /// Creates a page view controller from data in an unarchiver
-        super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        super.init(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: nil)
     }
     
     override func viewDidLoad() {
@@ -27,18 +27,6 @@ class PageViewController: UIPageViewController {
         self.dataSource = self
         setViewControllers([controllers[0]], direction: .forward, animated: false)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension PageViewController: UIPageViewControllerDataSource {
