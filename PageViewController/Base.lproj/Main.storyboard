@@ -11,7 +11,7 @@
         <!--Page View Controller-->
         <scene sceneID="crW-CR-B7F">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="dRT-4R-2ZK" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="dRT-4R-2ZK" customClass="PageViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NHi-Vc-2ZY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-139" y="-250"/>
@@ -19,7 +19,7 @@
         <!--Green View Controller-->
         <scene sceneID="vyv-I1-0Um">
             <objects>
-                <viewController id="ctZ-01-A54" customClass="GreenViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GreenViewController" id="ctZ-01-A54" customClass="GreenViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ERk-tf-IrV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
         <!--Orange View Controller-->
         <scene sceneID="GAH-Ch-DfM">
             <objects>
-                <viewController id="oZ0-jE-dSi" customClass="OrangeViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrangeViewController" id="oZ0-jE-dSi" customClass="OrangeViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TDU-s2-zMg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--Yellow View Controller-->
         <scene sceneID="2e4-Jn-7P1">
             <objects>
-                <viewController id="Gzm-NY-Gzs" customClass="YellowViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YellowViewController" id="Gzm-NY-Gzs" customClass="YellowViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MKd-4X-rF5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Blue View Controller-->
         <scene sceneID="g8Y-jF-8hg">
             <objects>
-                <viewController id="u3U-lj-b8V" customClass="BlueViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlueViewController" id="u3U-lj-b8V" customClass="BlueViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vCh-ch-EAt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
